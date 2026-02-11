@@ -1,0 +1,88 @@
+.footer {
+  background: linear-gradient(135deg, #111111, #1c1c1c);
+  color: #ffffff;
+  padding: 80px 60px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1.5fr;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Headings */
+.footer-heading {
+  color: #d99a57;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contact-heading {
+  margin-top: 40px;
+}
+
+/* Lists */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer-column ul li:hover {
+  color: #d99a57;
+}
+
+/* Contact */
+.contact-item {
+  margin-bottom: 12px;
+}
+
+/* Brand Section */
+.brand-column img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.brand-header h2 {
+  color: #d99a57;
+  font-weight: 600;
+}
+
+.brand-text {
+  line-height: 1.8;
+  max-width: 320px;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 60px 30px;
+  }
+}
