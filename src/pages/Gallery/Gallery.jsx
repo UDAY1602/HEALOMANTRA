@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import "./gallery.css";
+import GalleryGrid from "./GalleryGrid";
 
 const Gallery = () => {
-  return (
-    <div>Gallery</div>
-  )
-}
+  const sections = ["Trainers", "Events", "Workshops"];
 
-export default Gallery
+  return (
+    <div className="gallery-wrapper">
+      {sections.map((title) => (
+        <GalleryGrid key={title} title={title} />
+      ))}
+    </div>
+  );
+};
+
+export default Gallery;

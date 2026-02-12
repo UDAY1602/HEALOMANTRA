@@ -1,17 +1,15 @@
-/* Reset everything */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Make app take full viewport */
 html, body, #root {
   height: 100%;
   width: 100%;
 }
 
-/* Clean body styling */
 body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #ECF1F7;
@@ -21,8 +19,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Remove default link styles */
 a {
   text-decoration: none;
   color: inherit;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/gallery_assets/galleryfonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
