@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+}
+.benefits-section {
+  background: #ECF1F7;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* Title */
+.benefits-title {
+  font-family: 'Poppins-SemiBold';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.benefits-title span {
+  font-family: 'Poppins-SemiBold';
+  color: #F4A300;
+}
+
+/* Subtitle */
+.benefits-subtitle {
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+  color: #000000;
+  font-family: 'Poppins-Light';
+  line-height: 1.9;
+}
+
+/* Cards Container */
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  width: 320px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image only */
+.benefit-card img {
+  width: 100%;
+  border-radius: 25px;
+   /* matches image rounding */
+}
+
+/* First card */
+.benefit-card:nth-child(1) {
+  transform: translateY(0px);
+   margin-left: -30px;
+   
+}
+
+/* Second card */
+.benefit-card:nth-child(2) {
+  transform: translateY(0px);
+   margin-left: 30px;
+}
+
+/* Third card */
+.benefit-card:nth-child(3) {
+  transform: translateY(0px);
+   margin-left: -30px;
+}
+
+
+
