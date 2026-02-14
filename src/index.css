@@ -11,7 +11,7 @@ html, body, #root {
 }
 
 body {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
   background-color: #ECF1F7;
   line-height: 1.5;
   font-weight: 400;
@@ -23,11 +23,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-@font-face {
-  font-family: 'Poppins';
-  src: url('./assets/gallery_assets/galleryfonts/Poppins-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
+
 
 
