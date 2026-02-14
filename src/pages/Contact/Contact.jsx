@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
+import ContactMap from "./ContactMap";
 
-const Contact = () => {
+const ContactPage = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <>
+      <ContactForm />
+      <ContactInfo />
+      <ContactMap />
+    </>
+  );
+};
 
-export default Contact
+export default ContactPage;
