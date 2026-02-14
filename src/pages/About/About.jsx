@@ -1,13 +1,13 @@
 import React from "react";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
+import AbtHealOmantra from "./AbtHealOmantra";
+import CustomerReview from "./CustomerReview";
 
 
 const About = () => {
   return (
     <>
-      <Section1 />
-      <Section2 />
+      <AbtHealOmantra />
+      <CustomerReview/>
     </>
   );
 };

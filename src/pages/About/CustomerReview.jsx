@@ -1,7 +1,7 @@
 import React from "react";
-import "./Section2.css";
+import "./CustomerReview.css";
 
-const Section2 = () => {
+const CustomerReview = () => {
   return (
     <section className="sec2">
       <div className="sec2-container">
@@ -44,4 +44,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default CustomerReview;

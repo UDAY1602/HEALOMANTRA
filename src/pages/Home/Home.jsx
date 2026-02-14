@@ -1,10 +1,10 @@
 import React from "react";
-import "./home.css";
+
 
 import HomeHero from "./HomeHero";
 import Homebenefits from "./Homebenefits";
 import Homewelcome from "./Homewelcome";
-import Homeservies from "./Homeservies";
+import Homeservices from "./Homeservices";
 import Homewhy from "./Homewhy";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <HomeHero />
       <Homewelcome />
       <Homebenefits />
-      <Homeservies />
+      <Homeservices />
       <Homewhy />
     </>
   );

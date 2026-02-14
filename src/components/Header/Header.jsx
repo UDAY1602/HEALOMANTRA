@@ -55,8 +55,6 @@ const Header = () => {
           <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</NavLink>
         </div>
       </div>
-
-      {/* Spacer to prevent content hiding under fixed navbar */}
       <div className="navbar-spacer"></div>
     </>
   );
