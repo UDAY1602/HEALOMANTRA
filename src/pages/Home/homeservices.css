@@ -7,7 +7,7 @@
 .services-title {
   font-size: 42px;
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   color: #111;
 }
 
@@ -68,20 +68,29 @@
 }
 
 @media (max-width: 768px) {
+
+
+  .services-title {
+    font-size: 30px;   
+    margin-bottom: 30px;
+  }
+
   .services-container {
     flex-direction: column;
-    gap: 35px;
+    gap: 40px;
+  }
+
+  .services-column {
+    gap: 20px;
+    margin-top: 20px;   
   }
 
   .services-image {
     margin-top: 0;
   }
 
-  .services-column {
-    gap: 20px;
-  }
-
   .service-pill {
     min-width: 200px;
+    font-size: 16px;  
   }
 }

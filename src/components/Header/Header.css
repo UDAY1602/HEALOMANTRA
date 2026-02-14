@@ -1,6 +1,5 @@
-
 .nav-wrapper {
-  padding: 30px 0;
+  padding: 18px 0;  
   background: #ECF1F7;
 
   position: fixed;
@@ -11,40 +10,41 @@
 }
 
 .nav-wrapper + * {
-  margin-top: 150px;  
+  margin-top: 110px;   
 }
+
 .nav-content {
-  max-width: 1300px;
+  max-width: 1250px;
   margin: auto;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 45px;   
 }
 
 .nav-logo {
-  width: 75px;
+  width: 60px;  
   height: auto;
 }
 
 .nav-container {
-  width: 1200px;
-  height: 75px;
+  width: 1050px;   
+  height: 60px;    
   background: #ffffff;
-  border-radius: 18px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 55px;      
   border: 1px solid #e6e6e6;
 }
 
 .nav-link {
   text-decoration: none;
   color: #6c6c6c;
-  font-size: 18px;
+  font-size: 16px;     
   font-weight: 600;
-  padding: 12px 26px;
-  border-radius: 40px;
+  padding: 8px 20px;   
+  border-radius: 30px;
   transition: 0.3s ease;
 }
 
@@ -61,19 +61,14 @@
   display: none;
 }
 
-/* ========================= */
-/* MOBILE */
-/* ========================= */
-
 @media (max-width: 1024px) {
 
   .nav-wrapper {
-    padding: 15px 0;
+    padding: 12px 0;   
   }
 
-  /* Smaller offset for mobile */
   .nav-wrapper + * {
-    margin-top: 110px;
+    margin-top: 85px;  
   }
 
   .nav-content {
@@ -88,37 +83,37 @@
   .brand {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
   }
 
   .brand-name {
-    font-size: 18px;
+    font-size: 16px;  
     font-weight: 600;
     color: #d58b1f;
   }
 
   .nav-logo {
-    width: 75px;
+    width: 55px;
     height: auto;
   }
 
   .hamburger {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 4px;
     cursor: pointer;
   }
 
   .hamburger span {
-    width: 25px;
-    height: 3px;
+    width: 22px;
+    height: 2.5px;
     background: #1d1b1b;
     border-radius: 2px;
     transition: 0.3s ease;
   }
 
   .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(4px, 4px);
   }
 
   .hamburger.active span:nth-child(2) {
@@ -126,15 +121,15 @@
   }
 
   .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: rotate(-45deg) translate(5px, -5px);
   }
 
   .mobile-menu {
     display: none;
     flex-direction: column;
     background: #ffffff;
-    padding: 20px;
-    gap: 20px;
+    padding: 18px;
+    gap: 16px;
     border-top: 1px solid #e6e6e6;
   }
 
@@ -145,7 +140,7 @@
   .mobile-menu a {
     text-decoration: none;
     color: #6c6c6c;
-    font-size: 16px;
+    font-size: 15px;  
   }
 
   .mobile-menu a.active {
