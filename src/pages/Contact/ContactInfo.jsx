@@ -1,9 +1,9 @@
 import React from "react";
 
-import CallLogo from "../../assets/contact_assets/CallLogo.png";
-import WhatsappLogo from "../../assets/contact_assets/whatsappLogo.png";
-import GmailLogo from "../../assets/contact_assets/gmailLogo.png";
-import LocationLogo from "../../assets/contact_assets/LocationLogo.png";
+import CallLogo from "../../assets/contact/CallLogo.png";
+import WhatsappLogo from "../../assets/contact/whatsappLogo.png";
+import GmailLogo from "../../assets/contact/gmailLogo.png";
+import LocationLogo from "../../assets/contact/LocationLogo.png";
 
 const ContactInfo = () => {
   return (
