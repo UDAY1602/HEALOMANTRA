@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+.homewelcome {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.homewelcome-container {
+  width: 88%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+
+/* LEFT SIDE */
+.homewelcome-left {
+  flex: 1;
+  margin-left: 85px;
+}
+
+.homewelcome-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 50px;
+}
+
+.black-text {
+  color: #000;
+  font-weight: 600;
+}
+
+.highlight-text {
+  color: #D69311;
+  font-weight: 600;
+}
+
+.homewelcome-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 2;
+  color: #000;
+  max-width: 650px;
+  margin-bottom: 60px;
+}
+
+.homewelcome-btn {
+  background-color: #F5A40C;
+  color: white;
+  padding: 18px 55px;
+  border-radius: 40px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.homewelcome-btn:hover {
+  background-color: #e49500;
+  transform: translateY(-3px);
+}
+
+/* RIGHT SIDE */
+.homewelcome-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.homewelcome-right img {
+  width: 560px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* DESKTOP */
+@media (min-width: 1400px) {
+  .homewelcome-title {
+    font-size: 78px;
+  }
+
+  .homewelcome-right img {
+    width: 600px;
+  }
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+  .homewelcome-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+  }
+
+  .homewelcome-left {
+    margin-left: 0;
+  }
+
+  .homewelcome-title {
+    font-size: 54px;
+  }
+
+  .homewelcome-description {
+    font-size: 20px;
+    margin: 0 auto 40px;
+  }
+
+  .homewelcome-right img {
+    width: 420px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .homewelcome {
+    padding: 60px 0;
+  }
+
+  .homewelcome-title {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+
+  .homewelcome-description {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .homewelcome-btn {
+    font-size: 16px;
+    padding: 14px 40px;
+  }
+
+  .homewelcome-right img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .homewelcome-title {
+    font-size: 34px;
+  }
+
+  .homewelcome-description {
+    font-size: 16px;
+  }
+
+  .homewelcome-right img {
+    width: 260px;
+  }
+}
