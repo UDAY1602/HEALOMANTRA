@@ -1,0 +1,83 @@
+.trainer-row {
+  position: relative;
+  width: 100%;
+  margin: 120px 0;
+  display: flex;
+  align-items: center;
+}
+.title{
+    text-align: center;
+}
+/* LEFT SIDE (odd rows) */
+.trainer-row:nth-of-type(odd) {
+  justify-content: flex-start;
+}
+
+/* RIGHT SIDE (even rows) */
+.trainer-row:nth-of-type(even) {
+  justify-content: flex-end;
+}
+
+/* TEXT BLOCK */
+.trainer-content {
+  width: 40%;
+}
+
+/* POSITION TEXT BASED ON SIDE */
+.trainer-row:nth-of-type(odd) .trainer-content {
+  margin-left: 5%;
+  text-align: right;
+}
+
+.trainer-row:nth-of-type(even) .trainer-content {
+  margin-right: 5%;
+  text-align: left;
+}
+
+/* BIG CIRCLE */
+.trainer-image {
+  width: 220px;
+  height: 220px;
+  background: #f4a300;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(60%);
+}
+
+/* For even rows flip circle */
+.trainer-row:nth-of-type(even) .trainer-image {
+  left: 50%;
+  transform: translateX(-160%);
+}
+
+/* CENTER DOT */
+.center-dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #f4a300;
+  border-radius: 50%;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.trainers-section {
+  background: #ECF1F7;
+  padding: 80px 0;
+  position: relative;
+}
+
+/* Vertical Center Line */
+.trainers-section::before {
+  content: "";
+  position: absolute;
+  top: 270px;   
+  bottom: 150px;
+  left: 50%;
+  width: 2px;
+  background: #9c9c9c;
+  transform: translateX(-50%);
+  z-index: 0;
+}
