@@ -8,11 +8,11 @@ const Trainers = () => {
       <div className="trainer-row">
 
         <div className="trainer-content">
-          <h3>Vamshi Pochammala</h3>
+          <h3 className="name">Vamshi Pochammala</h3>
           <p className="sub">Founder & Senior Yoga Teacher (HealoMantra)</p>
 
-          <p><strong>Role:</strong> Founder | Certified International Yoga Teacher</p>
-          <p><strong>Experience:</strong> 8+ years</p>
+          <p className="role">Role: Founder | Certified International Yoga Teacher</p>
+          <p className="role">Experience: 8+ years</p>
 
           <p className="desc">
             Vamshi Pochammala is the Founder and Senior Yoga Teacher of HealOmantra, with over eight years of extensive teaching experience across wellness studios, corporate organizations, schools, gyms, and hospitals. He has designed and led customized yoga and wellness programs for diverse populations, including corporate professionals, general wellness seekers, children, and patients in clinical and therapeutic settings.
@@ -29,11 +29,11 @@ const Trainers = () => {
       <div className="trainer-row">
 
         <div className="trainer-content">
-          <h3>Sarita Panchal </h3>
+          <h3 className="name">Sarita Panchal </h3>
           <p className="sub">Senior Yoga Instructor (Traditional & Aerial Yoga)</p>
 
-          <p>Role: Senior Instructor</p>
-          <p>Specialization: Traditional Yoga & Aerial Yoga</p>
+          <p className="role" > Role: Senior Instructor</p>
+          <p className="role" > Specialization: Traditional Yoga & Aerial Yoga</p>
 
           <p className="desc">
             Sarita Panchal is a Certified Yoga Instructor with RYT 200 certification and specialized training in Aerial Yoga. She currently serves as a Senior Instructor at HealOMantra Yoga Studio, Gachibowli, where she leads both traditional and aerial yoga sessions.
@@ -51,11 +51,11 @@ const Trainers = () => {
       <div className="trainer-row">
 
         <div className="trainer-content">
-          <h3>Dasari Alekya</h3>
+          <h3 className="name">Dasari Alekya</h3>
           <p className="sub"> Yoga Instructor</p>
 
-          <p>Role: Yoga Instructor</p>
-          <p>Experience: 5+ years</p>
+          <p className="role" >Role: Yoga Instructor</p>
+          <p className="role">Experience: 5+ years</p>
 
           <p className="desc">
             Dasari Alekya is a passionate yoga instructor with over five years of professional teaching experience in Hatha, Ashtanga, and Vinyasa yoga. She has completed multiple levels of yoga teacher training, including 200-hour, 300-hour, and advanced TTC programs from reputed yoga institutions in Mysore.
@@ -73,11 +73,11 @@ const Trainers = () => {
       <div className="trainer-row">
 
         <div className="trainer-content">
-          <h3>Manashi Kalita</h3>
+          <h3 className="name">Manashi Kalita</h3>
           <p className="sub">Yoga Teacher & Trainer</p>
 
-          <p>Role:  Yoga Teacher / Trainer</p>
-          <p>Specialization: Therapeutic Yoga, Naturopathy & Yogic Science</p>
+          <p className="role" > Role:  Yoga Teacher / Trainer</p>
+          <p className="role" > Specialization: Therapeutic Yoga, Naturopathy & Yogic Science</p>
 
           <p className="desc">
             Manashi Kalita is a professionally trained Yoga Teacher and Trainer with strong academic grounding in Naturopathy and Yogic Science. She holds both Bachelor’s and Master’s degrees in the field and has teaching experience in institutional and educational settings, including Kendriya Vidyalaya (Central University).

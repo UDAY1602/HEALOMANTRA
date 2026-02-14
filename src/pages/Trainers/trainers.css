@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../../assets/Fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../../assets/Fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../../assets/Fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+.role{
+    font-family: 'Poppins-Medium';
+    text-align: left; 
+    font-size:18px; 
+}
+.desc{
+    font-family: 'Poppins-Regular';
+    text-align: left; 
+    max-width: 600px;
+    color: #555;
+}
+.sub{
+    font-family: 'Poppins-Regular';
+    text-align: left; 
+    color: #555;
+}
 .trainer-row {
   position: relative;
   width: 100%;
@@ -6,7 +36,14 @@
   align-items: center;
 }
 .title{
-    text-align: center;
+    text-align: center; 
+    font-family: 'Poppins-SemiBold';
+    font-size: 50px;
+}
+.name{
+    font-family: 'Poppins-SemiBold';
+    font-size: 34px;
+    text-align: left;   
 }
 /* LEFT SIDE (odd rows) */
 .trainer-row:nth-of-type(odd) {
@@ -41,21 +78,24 @@
   background: #f4a300;
   border-radius: 50%;
   position: absolute;
-  left: 50%;
+  left: 60%;
   transform: translateX(60%);
+  transform: translatey(-20%);
 }
 
 /* For even rows flip circle */
 .trainer-row:nth-of-type(even) .trainer-image {
-  left: 50%;
+  left: 45%;
+  top: 10px;
   transform: translateX(-160%);
+  
 }
 
 /* CENTER DOT */
 .center-dot {
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 26px;
+  height: 26px;
   background: #f4a300;
   border-radius: 50%;
   left: 50%;
@@ -73,11 +113,59 @@
 .trainers-section::before {
   content: "";
   position: absolute;
-  top: 270px;   
-  bottom: 150px;
+  
+  top: 310px;   
+  bottom: 1px;
   left: 50%;
-  width: 2px;
-  background: #9c9c9c;
+  width: 2px;       
+  background: #000000;
   transform: translateX(-50%);
   z-index: 0;
+}
+/* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+  /* Remove timeline line */
+  .trainers-section::before {
+    display: none;
+  }
+
+  /* Stack vertically */
+  .trainer-row {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+  }
+
+  /* Force image to behave normally */
+  .trainer-image {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+    order: -1; /* 👈 THIS makes image appear first */
+  }
+
+  /* Remove alternating margins */
+  .trainer-row:nth-of-type(odd) .trainer-content,
+  .trainer-row:nth-of-type(even) .trainer-content {
+    margin: 0 !important;
+    text-align: left;
+  }
+
+  .trainer-content {
+    width: 100%;
+    text-align: left;
+     padding: 0 20px;
+  }
+
+  .center-dot {
+    display: none;
+  }
+
 }
