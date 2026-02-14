@@ -1,29 +1,24 @@
 import "./Footer.css";
-import logo from "../../assets/component_assets/hmlogo.png"; // change if different
+import logo from "../../assets/component_assets/hmlogo.png";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-
-        {/* Column 1 - Address */}
         <div className="footer-column">
-          <h3 className="footer-heading">Address</h3>
-          <p>Gachibowli & Kokapet</p>
+          <div className="address-block">
+            <h3>Address</h3>
+            <p>Gachibowli & Kokapet</p>
+          </div>
 
-          <h3 className="footer-heading contact-heading">Contact</h3>
-
-          <p className="contact-item">
-            ✉ hello@healomantra.in
-          </p>
-          <p className="contact-item">
-            ☎ 9000134324
-          </p>
+          <div className="contact-block">
+            <h3>Contact</h3>
+            <p>✉ hello@healomantra.in</p>
+            <p>☎ 9000134324</p>
+          </div>
         </div>
-
-        {/* Column 2 - Links */}
         <div className="footer-column">
-          <h3 className="footer-heading">Links</h3>
+          <h3>Links</h3>
           <ul>
             <li>About</li>
             <li>Trainers</li>
@@ -31,18 +26,14 @@ const Footer = () => {
             <li>Gallery</li>
           </ul>
         </div>
-
-        {/* Column 3 - Socials */}
         <div className="footer-column">
-          <h3 className="footer-heading">Socials</h3>
+          <h3>Socials</h3>
           <ul>
             <li>Instagram</li>
             <li>Facebook</li>
-            <li>Watsapp</li>
+            <li>Whatsapp</li>
           </ul>
         </div>
-
-        {/* Column 4 - Brand Info */}
         <div className="footer-column brand-column">
           <div className="brand-header">
             <img src={logo} alt="logo" />
