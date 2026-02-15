@@ -1,6 +1,5 @@
 import React from "react";
 import "./benefits.css";
-
 import flexibility from "../../assets/home_assets/Flexibility.png";
 import balance from "../../assets/home_assets/Balance.png";
 import calm from "../../assets/home_assets/Calm.png";

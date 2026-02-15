@@ -22,7 +22,7 @@ const CustomerReview = () => {
           <div className="review-card">
             <div className="stars">★★★★★☆</div>
             <p className="review-text">
-              Joining <span className="highlight">HealOMantra</span> has been lifechanging.
+              Joining HealOMantra has been lifechanging.
               My flexibility and focus have improved, and I feel
               more energetic every day.
             </p>
