@@ -10,11 +10,16 @@
   font-weight: 600;
 }
 
-.about-title span,
-.highlight {
+.about-title span {
   color: #d58b1f;
   font-weight: 700;
 }
+
+.highlight {
+  color: #d58b1f;
+  font-weight: 600;  
+}
+
 
 .timeline-wrapper {
   position: relative;
@@ -53,7 +58,7 @@
 }
 
 .timeline-content {
-  max-width: 340px;
+  max-width: 400px;
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
@@ -69,7 +74,7 @@
 }
 
 .timeline-content h3 {
-  font-size: 26px;
+  font-size: 23px;
   margin-bottom: 18px;
   font-weight: 600;
 }

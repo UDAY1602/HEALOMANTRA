@@ -15,11 +15,11 @@ const AbtHealOmantra = () => {
         <div className="timeline-item">
           <div className="timeline-content left">
             <h3>
-              What is <span className="highlight">HealOMantra</span> <br />
+              What is HealOMantra<br />
               and how it is started
             </h3>
             <p>
-              <span className="highlight">HealOMantra</span> is a wellness brand dedicated to bringing the
+              HealOMantra is a wellness brand dedicated to bringing the
               benefits of yoga, meditation, and holistic health to people of
               all ages. It started with the vision of making authentic yoga
               accessible to communities, combining traditional techniques with
@@ -44,7 +44,7 @@ const AbtHealOmantra = () => {
             <h3>Journey so far and overall vision</h3>
             <p>
               From our first few students to now conducting 100+ sessions per
-              month,<span className="highlight">HealOMantra</span> has expanded its presence through
+              month,HealOMantra has expanded its presence through
               collaborations with leading brands like Decathlon and various
               residential communities. Our vision is to become a global
               wellness platform where yoga and holistic living are part of
